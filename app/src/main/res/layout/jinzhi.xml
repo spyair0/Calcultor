@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+tools:context=".MainActivity">>
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:hint=""
+        android:ems="10"
+        android:gravity="center_vertical|right"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/e1"
+        android:gravity="center_vertical|center"
+        android:text="十六进制" />
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical|right"
+        android:ems="10"
+        android:hint=""
+        android:layout_below="@id/e1"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/e1"
+        android:layout_toRightOf="@id/e2"
+        android:gravity="center_vertical|center"
+        android:text="八进制"
+
+        />
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint=""
+        android:layout_below="@id/e2"
+        android:gravity="center_vertical|right"
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="二进制"
+        android:gravity="center_vertical|center"
+        android:layout_toRightOf="@id/e3"
+        android:layout_below="@id/e2"
+        />
+    <Button
+        android:id="@+id/jz"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv3"
+        android:text="转换"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>

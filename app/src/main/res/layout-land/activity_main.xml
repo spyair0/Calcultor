@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation|keyboard|layoutDirection|screenSize"
+    android:textAllCaps="false"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="right|center"
+        android:maxLines="1"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/m1"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et"
+        android:layout_toRightOf="@id/m4"
+        android:text="m+"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/m2"
+        android:text="m-"
+        android:textAllCaps="false"
+        android:layout_below="@id/et"
+        android:layout_toRightOf="@id/m1"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/m3"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et"
+        android:layout_marginTop="3dp"
+        android:text="("
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/m4"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et"
+        android:layout_toRightOf="@id/m3"
+        android:text=")"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/m5"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/m2"
+        android:text="mc"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/m6"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/et"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/m5"
+        android:text="mr"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/c"
+        android:text="C"
+        android:layout_below="@id/m1"
+        android:layout_toRightOf="@id/cos"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/chu"
+        android:text="÷"
+        android:layout_below="@id/m1"
+        android:layout_toRightOf="@id/c"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/cheng"
+        android:text="×"
+        android:layout_below="@id/m1"
+        android:layout_toRightOf="@id/chu"
+        android:layout_width="105dp"
+         android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/back"
+        android:text="⌫"
+        android:layout_below="@id/m1"
+        android:layout_toRightOf="@id/cheng"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/sin"
+        android:text="sin"
+        android:textAllCaps="false"
+        android:layout_below="@id/m1"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/cos"
+        android:text="cos"
+        android:layout_below="@id/m1"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/sin"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/tan"
+        android:text="tan"
+        android:layout_below="@id/sin"
+        android:layout_width="105dp"
+        android:textAllCaps="false"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/fang"
+        android:text="x²"
+        android:layout_below="@id/sin"
+        android:layout_toRightOf="@id/tan"
+        android:textAllCaps="false"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu7"
+        android:text="7"
+        android:layout_below="@id/sin"
+        android:layout_toRightOf="@id/fang"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/shu8"
+        android:text="8"
+        android:layout_below="@id/sin"
+        android:layout_toRightOf="@id/shu7"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu9"
+        android:text="9"
+        android:layout_below="@id/sin"
+        android:layout_toRightOf="@id/shu8"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/jian"
+        android:text="－"
+        android:layout_below="@id/sin"
+        android:layout_toRightOf="@id/shu9"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/jie"
+        android:text="x!"
+        android:layout_below="@id/tan"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/san"
+        android:text="x³"
+        android:layout_below="@id/tan"
+        android:layout_toRightOf="@id/jie"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/shu4"
+        android:text="4"
+        android:layout_below="@id/tan"
+        android:layout_toRightOf="@id/san"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu5"
+        android:text="5"
+        android:layout_below="@id/shu7"
+        android:layout_toRightOf="@id/shu4"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu6"
+        android:text="6"
+        android:layout_below="@id/shu7"
+        android:layout_toRightOf="@id/shu5"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/jia"
+        android:text="+"
+        android:layout_below="@id/shu7"
+        android:layout_toRightOf="@id/shu6"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/dengyu"
+        android:layout_width="105dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/shu4"
+        android:layout_toRightOf="@id/shu6"
+        android:text="="
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/jinzhi"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/jie"
+        android:text="进制转换"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/danwei"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/jie"
+        android:layout_toRightOf="@id/jinzhi"
+        android:text="单位换算"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/shu1"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu4"
+        android:layout_toRightOf="@id/danwei"
+        android:text="1"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu2"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu4"
+        android:layout_toRightOf="@id/shu1"
+        android:text="2"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/shu3"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu4"
+        android:layout_toRightOf="@id/shu2"
+        android:text="3"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/percent"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu1"
+        android:layout_toLeftOf="@id/shu0"
+        android:text="%"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/shu0"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu1"
+        android:layout_toLeftOf="@id/dian"
+        android:text="0"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/dian"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/shu1"
+        android:layout_toLeftOf="@id/dengyu"
+        android:text="."
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/huilv"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/jinzhi"
+        android:text="汇率转换"
+        android:textSize="18dp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
